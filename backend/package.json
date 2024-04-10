@@ -1,0 +1,22 @@
+{
+  "scripts": {
+    "dev": "wrangler dev src/index.ts",
+    "deploy": "wrangler deploy --minify src/index.ts"
+  },
+  "dependencies": {
+    "@cloudinary/url-gen": "^1.19.0",
+    "@prisma/client": "^5.12.1",
+    "@prisma/extension-accelerate": "^1.0.0",
+    "@types/nodemailer": "^6.4.14",
+    "cloudinary": "^2.1.0",
+    "cors": "^2.8.5",
+    "hono": "^4.2.2",
+    "nodemailer": "^6.9.13",
+    "resend": "^3.2.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240403.0",
+    "prisma": "^5.12.1",
+    "wrangler": "^3.47.0"
+  }
+}
