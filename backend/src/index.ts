@@ -110,8 +110,8 @@ app.post("/sendEmail", async (c) => {
   const { data, error } = await resend.emails.send({
     from: "nikhilkethe@kethesainikhil.online",
     to: [body.email],
-    subject: "hello world",
-    html: "<strong>it works!</strong>",
+    subject: "DRIBBLE REGISTRATION",
+    html: "<strong>Hey!!! Congratulations on registering with Dribble. We are happy to have you here.</strong>",
   });
 
   if (error) {
